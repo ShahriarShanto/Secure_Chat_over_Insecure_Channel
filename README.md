@@ -1,6 +1,10 @@
 # Secure_Chat_over_Insecure_Channel
 Encrypt and decrypt messages via CLI to chat with someone securely
 
+No need to blindly trust WhatsApp, Telegram, Messenger, or Signal!
+
+Encrypt with this tool and send via any means :)
+
 # 🔒 Secure Chat Scripts
 
 This repository contains two experimental Python tools for **AES-256-GCM encrypted messaging**.  
@@ -19,6 +23,8 @@ A command-line program for manual encryption and decryption.
 - Interactive CLI loop:
   - Enter plaintext → get Base64 ciphertext.
   - Enter Base64 ciphertext → get plaintext.
+- Make sure you change the HARDCODED Salt inside the python script regularly.
+- Send this Python Script to the other person after making an encrypted .7z archive.
 
 Run:
 ```bash
